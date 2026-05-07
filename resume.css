@@ -1,0 +1,124 @@
+body {
+  max-width: 8.5in;
+  margin: 0 auto;
+  padding: 0.75in;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.35;
+}
+
+/* Defaults */
+
+h1 {
+  margin: 0 0 0.25em;
+  text-align: center;
+  color: #27a;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.2em;
+  color: #27a;
+  margin: 1em 0 0.4em;
+  border-bottom: 1px solid #000;
+  font-size: 1.1em;
+  break-after: avoid;
+}
+
+h3 {
+  margin: 0.8em 0 0.25em;
+  font-size: 1.1em;
+  break-after: avoid;
+}
+
+p {
+  margin: 0 0 0.4em 0;
+}
+
+ul {
+  list-style-position: outside;
+  margin: 0 0 0.4em 0.35in;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.25em;
+}
+
+li > p {
+  margin: 0;
+}
+
+li > p + ul,
+li > p + ol {
+  margin-top: 0.15em;
+}
+
+/* contact */
+
+.contact {
+  text-align: center;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid #999;
+  margin-bottom: 0.6em;
+}
+
+/* headline */
+
+.headline {
+  text-align: center;
+}
+
+.headline p:first-child {
+  font-size: 1.2em;
+  color: #27a;
+}
+
+/* summary */
+
+/* capabilities */
+
+.capabilities h3 {
+  font-size: 1em;
+}
+/* experience */
+
+.experience ul,
+.experience p {
+  margin-left: 0.35in;
+}
+
+.experience li p {
+  margin-left: 0;
+}
+
+.experience h3 {
+  color: #555;
+}
+
+/* education */
+
+/* professional development */
+
+.professional-development h3 {
+  font-size: 1em;
+}
+
+/* target-roles */
+
+.target-roles p {
+  text-align: left;
+}
+
+@page {
+  margin: 1in;
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+  }
+}
