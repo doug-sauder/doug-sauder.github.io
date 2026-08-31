@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="$if(lang)$$lang$$else$en$endif$">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>$pagetitle$</title>
+$if(description)$
+  <meta name="description" content="$description$">
+$endif$
+$if(stylesheet)$
+  <link rel="stylesheet" href="$stylesheet$">
+$endif$
+</head>
+
+<body>
+  <header>
+    <h1>$name$</h1>
+$if(headline)$
+    <p class="headline">$headline$</p>
+$endif$
+$if(location)$
+    <p class="muted">$location$</p>
+$endif$
+
+    <nav class="contact-links" aria-label="Professional links">
+$if(linkedin)$
+      <a href="$linkedin$">LinkedIn</a>
+$endif$
+$if(github)$
+      <a href="$github$">GitHub</a>
+$endif$
+    </nav>
+  </header>
+
+  <main>
+$body$
+  </main>
+
+  <footer>
+    <p>
+$if(linkedin)$
+      <a href="$linkedin$">LinkedIn</a>
+$endif$
+$if(linkedin)$$if(github)$
+      ·
+$endif$$endif$
+$if(github)$
+      <a href="$github$">GitHub</a>
+$endif$
+    </p>
+  </footer>
+</body>
+</html>
