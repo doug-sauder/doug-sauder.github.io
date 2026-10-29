@@ -17,6 +17,26 @@ have designed and built directly.
 ::: {#projects aria-labelledby="projects-heading"}
 ## Selected Projects {#projects-heading}
 
+::: {#contact-center-staffing-planner-project .project}
+### Contact Center Staffing Planner
+
+::: {.project-meta}
+Discrete-event simulation · Monte Carlo methods · Domain modeling · Spec-Kit ·
+AI-assisted development
+:::
+
+A workforce-management tool that simulates an inbound voice contact center to
+help determine how many agents are needed, and when, to meet service goals. The
+project is at an early stage: it currently consists of a detailed domain model
+covering entities, events, state machines, and metric definitions, which drives
+spec-driven implementation. Its design records every simulated event so that
+new metrics can be computed later without re-running the simulation.
+
+::: {.project-links}
+[View repository](https://github.com/doug-sauder/contact-center-staffing-planner)
+:::
+:::
+
 ::: {#cloud-native-telecom-analytics-project .project}
 ### Cloud-Native Telecom Analytics Platform
 
